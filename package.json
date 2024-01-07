@@ -1,0 +1,22 @@
+{
+  "name": "pub2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.3",
+    "@mui/material": "^5.15.2",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "typeface-cormorant": "^1.1.13",
+    "typeface-cormorant-sc": "^1.1.13"
+  }
+}
