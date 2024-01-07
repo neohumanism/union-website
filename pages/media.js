@@ -1,4 +1,3 @@
-/*
 import React from 'react';
 import Button from '@mui/material/Button';
 import Container from "@mui/material/Container";
@@ -41,4 +40,3 @@ const MediaPage = () => {
 };
 
 export default MediaPage;
-*/
