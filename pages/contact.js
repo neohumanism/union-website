@@ -11,6 +11,8 @@ import {
 } from '@mui/material';
 import Link from 'next/link';
 
+//do loop repeat componentification here
+
 const Contact = () => {
   return (
     <Container maxWidth="md">

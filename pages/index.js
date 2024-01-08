@@ -7,6 +7,7 @@ import CardGrid from '../components/cardgrid';
 import StackCard from '../components/stackcards';
 import "typeface-cormorant-sc";
 
+//fix grid to go vertical on small screen
 
 const news = [ //this is just temporary until we set up database
   {title: 'Is Spaceshipman an ally?', content: 'Spaceshipman has just unveiled his latest genius idea of new roads under our current roads. Investors say this...', image: "lol.jpg"},
@@ -18,9 +19,9 @@ const news = [ //this is just temporary until we set up database
 ];
 
 const talk = [
-  {title: "We shall dismantle the modern order", desc: "Throught the West, reactionary elements have found itself helpless against the wave of modernity. This modernity, containing numerous elements eroding the fabric society was built on, leading us towards collapse. We will unify the reactionaries under a cohesive cause and organization so we may supplant the modern order, and mend the individual problems caused by certain modern outlooks.", alignment:"center"},
+  {title: "We shall supplant the modern order", desc: "Throughout the West, reactionary elements have found themselves helpless against the tide of modernity. This modernity has parts that erode the fabric society was built on, leading us on the path to collapse. We will unify the reactionaries under a cohesive creed and organization so that we may supplant the modern order with a more grounded one.", alignment:"center"},
   {title: "We shall root out extremism", desc: "Society does not benefit from extremist dogmas that create totalitarian dictatorships or tear it apart. Yet, political moderates and laypeople always helpless to the devoted few that desire it. We aim to root out the extremists wherever they are, be it on the Left or on the Right. And we aim to foster rational and emotionally strong belief-systems to keep extremist dogma at bay.",alignment:"center"},
-  {title: "We shall solve the existential crisis", desc: "The degenerate state of politics today is unable to properly grasp the kind of crossroads humanity currently finds itself in, much less solve it. By instating rationality and a common goal into the world, we hope to reopen a discussion of how to tackle the world's existential problems, this time in earnest.", alignment:"center"},
+  {title: "We shall solve the existential crisis", desc: "The degenerate state of politics today is unable to properly grasp the kind of crossroads humanity currently finds itself in, much less find the capacity to solve it. By instating rationality and a common goal into the world, we hope to reopen a discussion of how to tackle the world's existential problems, this time in earnest.", alignment:"center"},
 ];
 
 const Home = () => {
@@ -35,7 +36,7 @@ const Home = () => {
         {talk.map((item) => (
         <StackCard title={item.title} desc={item.desc}/>
         ))}
-        <Typography variant="h1" sx={{textAlign:"center",paddingTop:"10px", fontFamily:"Cormorant SC", fontWeight:300,color:"red", textTransform:"lowercase"}}>This century and beyond</Typography>
+        <Typography variant="h1" sx={{textAlign:"center",paddingTop:"10px", fontFamily:"Cormorant SC", fontWeight:300,color:"red", textTransform:"lowercase"}}>To this century and beyond</Typography>
         <br/><br/><br/>
       </Container>
     </>

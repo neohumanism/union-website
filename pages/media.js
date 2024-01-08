@@ -6,6 +6,8 @@ import CardGrid from '../components/cardgrid';
 import SortBar from '../components/sortbar';
 import Grid from '@mui/material/Grid';
 
+//i know this is in a cringe state right now, but vercel doesn't accept empty files, so it is more convenient to just leave it as is
+
 const news = [
   {title: 'Is Spaceshipman an ally?', content: 'Spaceshipman has just unveiled his latest genius idea of new roads under our current roads. Investors say this...', image: "lol.jpg"},
   {title: 'Is the \"libertarian left\" a grift?', content: 'You can\'t enforce equality without the equivalent of a police to do it, so how do left libertarians suggest it...', image: "lol.jpg"},
