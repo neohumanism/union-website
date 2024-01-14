@@ -16,7 +16,7 @@ import "typeface-cormorant-sc";
 const BarLinksData = [
   {name: "Home", link: "/"},
   {name: "About", link: "/about"},
-  {name: "Media", link: "/media"},
+  {name: "Media", link: "/articles"},
   {name: "Canon", link: "/canon"},
   {name: "Dictionary", link: "/dictionary"},
   {name: "Contact", link: "/contact"},
@@ -25,8 +25,8 @@ const BarLinksData = [
 const BarLinks = ({data}) => {
   return (
     <>
-      {data.map((item) => (
-        <Link href={item.link}>
+      {data.map((item, index) => (
+        <Link href={item.link} key={index}>
         <Button color="inherit">{item.name}</Button>
         </Link>
       ))}
@@ -37,8 +37,8 @@ const BarLinks = ({data}) => {
 const MenuLinks = ({data, close}) => {
   return (
     <List sx={{width:"100%"}}>
-      {data.map((item) => (
-        <Link href={item.link} onClick={close}>
+      {data.map((item, index) => (
+        <Link href={item.link} onClick={close} key={index}>
         <ListItem sx={{width:"100%",textAlign:"center",backgroundColor:"#121212",marginBottom:"14px",height:"70px"}}>
         {item.name}
         </ListItem>
@@ -63,7 +63,7 @@ const Navbar = () => {
     <AppBar position="static" style={{backgroundColor: "#000000", color: "white"}}>
       <Toolbar>
         <Typography variant="h4" component="div" sx={{flexGrow: 1, fontFamily:"Cormorant SC", textTransform:"lowercase", marginTop:"-3px", whiteSpace:"nowrap"}}>
-          Reactionary Union
+          Reactionary Union {/*might work better as just an image, given the fontload is 0.2 seconds or w/e*/}
         </Typography>
         <Hidden smDown implementation="css">
           <BarLinks data={BarLinksData}/>

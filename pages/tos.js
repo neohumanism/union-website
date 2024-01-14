@@ -23,7 +23,7 @@ const Tos = () => {
       <p>By accessing or otherwise using this website, you agree to have understood, abide by, and forever be bound by these Terms of Service. If you do not agree with these terms, you must refrain from using this website.</p>
 
       <p><strong>2. Use of the Website</strong></p>
-      <p>2.1: Users must be at least 18 years old and of mental competence to use this website. If a user is under 18 or of mental incompetence, the user is expected to be under the supervision of a parent or legal guardian.</p>
+      <p>2.1: Users must be at least 18 years old and of mental competence to use this website. If a user is under 18 or not of mental competence, the user is expected to be under the supervision of a parent or legal guardian.</p>
       <p>2.2: Users who are sensitive to disturbing content must leave this website. By using the website, the user assents to possessing a high tolerance for disturbing content.</p>
       <p>2.3: Users are expected to engage respectfully and lawfully on this website. Any abusive, illegal, or disruptive behavior may result in termination of access.</p>
       <p>2.4: The operators of the website reserve the right to suspend access to any user without prior disclosure and for any reason.</p>
@@ -33,7 +33,7 @@ const Tos = () => {
 
       <p><strong>4. Disclaimer</strong></p>
       <p>4.1: This website provides information for general use only. We do not guarantee the accuracy, completeness, or reliability of the content. Usage of its information is at one's own risk.</p>
-      <p>4.2: All information provided on this website is hypothetical, satirical, and concerning the videogame "Minecraft". All resemblance to real contexts is purely coincidental.</p>
+      <p>4.2: All information provided on this website is purely hypothetical, satirical, and concerning a survival roleplaying server in the videogame "Minecraft". All resemblance to real contexts is purely coincidental.</p>
 
       <p><strong>5. Limitation of Liability</strong></p>
       <p>5.1: The website owner is not liable for any direct, indirect, incidental, consequential, or punitive damages arising from the use or inability to use this website.</p>

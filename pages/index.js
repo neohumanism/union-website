@@ -5,6 +5,7 @@ import Container from "@mui/material/Container";
 import Typography from '@mui/material/Typography';
 import CardGrid from '../components/cardgrid';
 import StackCard from '../components/stackcards';
+import LinkCard from '../components/linkcard';
 import "typeface-cormorant-sc";
 
 //fix grid to go vertical on small screen
@@ -28,7 +29,7 @@ const Home = () => {
   return (
     <>
       <Container maxWidth="xl" sx={{backgroundColor:"#121212",marginTop:"17px"}}>
-        <CardGrid data={news} dimension={4}/>
+        <CardGrid data={news}/>
         <br/>
       </Container>
       <Container maxWidth="x1">

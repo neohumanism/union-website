@@ -1,13 +1,13 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
-import Card1 from './card1';
+import LinkCard from './linkcard';
 
-const CardGrid = ({data, dimension}) => {
+const CardGrid = ({data}) => {
   return (
     <Grid container spacing={2}>
       {data.map((item, index) => (
-        <Grid item xs={dimension} key={index}>
-          <Card1 title={item.title} content={item.content} image={item.image} alignment={item.alignment} />
+        <Grid item xs={12} sm={6} md={4} key={index}>
+          <LinkCard title={item.title} content={item.content} image={item.image} link={"lol"}/>
         </Grid>
       ))}
     </Grid>

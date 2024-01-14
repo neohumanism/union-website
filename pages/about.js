@@ -10,7 +10,7 @@ const AboutCards = [
   {title: "This website", desc: "Here, we explain our cause and argue to those with sympathies for why they should further support it."},
   {title: "Why we exist", desc: "The world is not in a good state, and society is moving towards collapse. We believe it is impossible to lead a \"normal\" life, and is why we hold that we were forced into this path. And every other group (to our current knowledge) touts unviable solutions, thus we had to make our own."},
   {title: "Our strategy", desc: "Most activist groups use ineffective strategies to push for their desired change. We do not believe in the good intentions of lawmakers nor the effectiveness of disorganized mobs. Instead, we aim to unify the momentum there is behind a cohesive leadership to put our own lawmakers into power. <Link href='/canon/strategy'>Read more</Link>"},
-  {title: "What we want from you", desc: "No one is safe from what is to come, including you. We want your participation in our movement to make the necessary changes for a stable world. <Link href='/contact'>Contact us</Link> or <Link href='/contact#network'>join our network</Link> to either work with us or remain a loose supporter."},
+  {title: "Why you are needed", desc: "No one is safe from what is to come, including you. We want your participation in our movement to make the necessary changes for a stable world. <Link href='/contact'>Contact us</Link> or <Link href='/contact#network'>join our network</Link> to either work with us or remain a loose supporter."},
 ]; //fix linking later
 
 const AboutPage = () => {

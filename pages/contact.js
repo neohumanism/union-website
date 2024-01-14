@@ -13,6 +13,13 @@ import Link from 'next/link';
 
 //do loop repeat componentification here
 
+const data1 = [
+  {name:"Discord", content:"https://discord.com/invite/ZJSBAD4gdw"},
+  {name:"Telegram", content:"not yet"},
+  {name:"Twitter", content:"not yet"},
+  {name:"Github", content:"https://github.com/neohumanism/union-website"},
+];
+
 const Contact = () => {
   return (
     <Container maxWidth="md">
@@ -23,8 +30,19 @@ const Contact = () => {
           We are actively seeking new people to work with. Do not hesitate to get in touch.
         </Typography>
 
-        <Divider />
-
+        <Divider/>
+        {data1.map((item, index) => (
+        <ListItem key={index}>
+          <ListItemText
+            primary={item.name}
+            secondary={(
+              <Typography variant="body2" sx={{ color: "white" }}>
+                {item.content}
+              </Typography>
+            )}            
+          />
+        </ListItem>
+        ))}
 
         <Typography variant="h6" gutterBottom>
           Social Media:
