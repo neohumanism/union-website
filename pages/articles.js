@@ -15,7 +15,7 @@ const ArticleNavigation = ({ articles }) => {
       <br/>
       <p style={{color:"lightblue", textDecoration:"underline"}}><Link href="/articleguide">Guide to how article markdown works</Link></p>
       <br/><br/>
-      <h2>UNIFINISHED ARTICLE: (for the sake of preview)</h2>
+      <h2>UNIFINISHED ARTICLES: (for the sake of preview)</h2>
       <ul>
         {articles.map((article, index) => (
           <li key={article.slug} style={{fontSize:"20px",padding:"5px"}}>
