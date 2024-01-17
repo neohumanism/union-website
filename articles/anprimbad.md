@@ -1,9 +1,9 @@
 ---
-title: Debunking anarcho-primitivism
+title: Anarcho-primitivism?
 author: Jake Helios
 published: 09/01/2024
 revised: 09/01/2024
-thumbnail: default
+thumbnail: monke.jpeg
 type: article
 tags: politics, ideology, philosophy
 ---

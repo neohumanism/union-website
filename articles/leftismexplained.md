@@ -9,12 +9,12 @@ tags: politics, ideology, philosophy
 ---
 
 # Understanding leftist ideology
-A lot of people hate or support leftist ideologies, say socialism, communism, social justice, marxism, syndicalism, or whatever else you’d call it. All without actually understanding much of the theory or history behind them. Or why or where they are right or wrong.
-
 ![Leftism image](image.jpg)
 
+A lot of people hate or support leftist ideologies, say socialism, communism, social justice, marxism, syndicalism, or whatever else you'd call it. All without actually understanding much of the theory or history behind them, making them unable to properly discuss the topic.
+
 ## 1 The leftist belief-system
-Leftism is a belief-system, not a notion, unlike what you would call “rightism”. Every leftist talking point is based on an overarching narrative about society. That, fundamentally being the idea of “oppression”, of how power may be leveraged by those more fortunate, the privileged, or “oppressors”, to unfairly exploit the less fortunate, the “oppressed”. This dynamic of oppressor and oppressed, you will find in every leftist school of thought. Be it between the upper and lower classes in socialism and marxism, or the franchised majority versus minorities in social justice. The idea being that a society without oppression will be ideal for human life.
+Leftism is a belief-system, not a notion like "rightism". Every leftist talking point is based on an overarching narrative about society. That being the idea of "oppression", of how power may be leveraged by those more fortunate, the "privileged", or "oppressors", to unfairly exploit the less fortunate, the "oppressed". This dynamic of oppressor and oppressed, you will find in every leftist school of thought. Be it between the upper and lower classes in socialism and marxism, or the franchised majority versus minorities in social justice. .
 
 To illustrate the dynamic, leftists will give you the Coconut Island analogy. Where you are stranded on a remote island with another person. But you are unconscious for a day, and the other person is not, so he collects and hides away all the food on the island. And when you wake up, he begins making strenuous demands of you if you don’t want to starve. (in the drawing: lick my toes or starve). Makes you feel kind of angry, doesn’t it?
 

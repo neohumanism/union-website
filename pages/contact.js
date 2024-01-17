@@ -30,6 +30,10 @@ const Contact = () => {
           We are actively seeking new people to work with. Do not hesitate to get in touch.
         </Typography>
 
+        <Typography variant="h6" gutterBottom>
+          Social Media:
+        </Typography>
+
         <Divider/>
         {data1.map((item, index) => (
         <ListItem key={index}>
@@ -44,21 +48,7 @@ const Contact = () => {
         </ListItem>
         ))}
 
-        <Typography variant="h6" gutterBottom>
-          Social Media:
-        </Typography>
-        <List>
-          <ListItem>
-            <ListItemText primary="Discord:" secondary="https://discord.com" />
-          </ListItem>
-          <ListItem>
-            <ListItemText primary="Telegram: " secondary="https://telegram.com" />
-          </ListItem>
-          <ListItem>
-            <ListItemText primary="Twitter: " secondary="https://twitter.com" />
-          </ListItem>
-        </List>
-        <Divider />
+        <Divider sx={{backgroundColor:"white", marginTop:"40px",marginBottom:"20px"}}/>
 
         <Typography variant="h6" gutterBottom>
           Contact Information:
@@ -66,12 +56,12 @@ const Contact = () => {
         <List>
           <ListItem>
             <ListItemText primary="Emails:" secondary={<Typography variant="body2" sx={{ color:"white" }}>
-                mail@mail.mail<br/> gmail@gmail.gmail
+                human.mail.person@gmail.com
               </Typography>}/>
           </ListItem>
           <ListItem>
             <ListItemText primary="Phone Numbers:" secondary={<Typography variant="body2" sx={{ color:"white" }}>
-                +99 999 99 999<br/> +22 222 22 222
+                none yet :/
               </Typography>}/>
           </ListItem>
           <ListItem>

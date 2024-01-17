@@ -13,6 +13,7 @@ import MetaBar from '../../components/metabar';
 //MAKE LINKS COLORED AND UNDERLINED
 //ADD IMAGE CUSTOMIZATION?
 
+//add a theme provider that makes links underlined and colored and etc.
 
 const Title = styled(Typography)`
   padding-bottom: 10px;

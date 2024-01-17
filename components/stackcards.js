@@ -21,7 +21,7 @@ const Desc = styled(Typography)`
 
 const Card1 = styled(Card)`
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid gray;
     border-radius: 0;
     margin-bottom: 40px; 
     background-color: black;

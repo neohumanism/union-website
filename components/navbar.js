@@ -1,16 +1,7 @@
 import React, { useState } from 'react';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import { AppBar, Toolbar, Typography, Button, IconButton, Hidden, Drawer, List, ListItem } from '@mui/material';
 import Link from 'next/link';
-import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import Hidden from '@mui/material/Hidden';
-import Drawer from '@mui/material/Drawer';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
 import "typeface-cormorant-sc";
 
 const BarLinksData = [
@@ -26,7 +17,7 @@ const BarLinks = ({data}) => {
   return (
     <>
       {data.map((item, index) => (
-        <Link href={item.link} key={index}>
+        <Link href={item.link} key={index} >
         <Button color="inherit">{item.name}</Button>
         </Link>
       ))}
@@ -63,7 +54,7 @@ const Navbar = () => {
     <AppBar position="static" style={{backgroundColor: "#000000", color: "white"}}>
       <Toolbar>
         <Typography variant="h4" component="div" sx={{flexGrow: 1, fontFamily:"Cormorant SC", textTransform:"lowercase", marginTop:"-3px", whiteSpace:"nowrap"}}>
-          Reactionary Union {/*might work better as just an image, given the fontload is 0.2 seconds or w/e*/}
+          New Order {/*might work better as just an image, given the fontload is 0.2 seconds or w/e*/}
         </Typography>
         <Hidden smDown implementation="css">
           <BarLinks data={BarLinksData}/>

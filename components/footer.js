@@ -1,13 +1,12 @@
 import React from 'react';
-import { Typography, Container, Link, Grid } from '@mui/material';
+import { Typography, Link, Grid } from '@mui/material';
 
 function Footer() {
   return (
-    <footer style={{ backgroundColor: "#000000", color: "white", padding: "20px 0" }}>
-      <Container>
+    <footer style={{ backgroundColor: "#000000", color: "white", padding: "20px" }}>
         <Grid container spacing={2} justifyContent="center" alignItems="center">
           <Grid item xs={6} md={6}>
-            <Typography variant="h6">Reactionary Union</Typography>
+            <Typography variant="h6">New Order</Typography>
             <Typography variant="body2" color="inherit">
               © No rights reserved as of {new Date().toISOString().split('T')[0]}
             </Typography>
@@ -36,7 +35,6 @@ function Footer() {
             </Typography>
           </Grid>
         </Grid>
-      </Container>
     </footer>
   );
 }
