@@ -7,7 +7,7 @@ const ArticleGuide = () => {
     const headerData = {
         headers: ["Header", "Example", "Description"],
         rows: [
-            ["title:", "\"Analysis of Keynesian Economics\"", "Title for your article. Is only used in browse."],
+            ["title:", "\"Analysis of Economic Factors\"", "Title for your article. Is only used in browse."],
             ["author:", "\"John Doe\"", "Name of the article author."],
             ["published:", "\"23/9/2023\"", "Date your article was published in dd/mm/yyyy."],
             ["revised:", "\"4/8/2024\"", "Date this article was last revised in dd/mm/yyyy. Small edits to correct minor errors do not count as significant enough revisions."],
@@ -31,18 +31,17 @@ const ArticleGuide = () => {
     const wipData = {
         headers: ["Expression", "Example", "Description"],
         rows: [            
-            ["\\", "\\\:", "Escape character. I don't believe this is necessary here however, so just ignore it unless special symbols are breaking your text."],
             [">","> Hello","Block quote."],
-            ["-","- Liqour\n- Arsenic\n- Body bag","Unordered list."],
-            ["1.","1. Acquire AK-47\n2. Scream in russian\n3. Rush B","Ordered list."],
+            ["-","- Item","Unordered list."],
+            ["1.","1. Item","Ordered list."],
             ["**","*This sentence is sarcastic*","Italic text."],
             ["__","_This sentence is a lie_","Italic text."],
             ["****","**Your mom is the biggest known lifeform**","Bold text."],
             ["____","__Be happy__","Bold text."],
             ["~~~~","~~This is cancelled~~","Strikethrough text."],
-            ["N/A","This is [an example][1] reference link. [1]: http://example.com","Reference link. Not yet supported."],
-            ["N/A","Here is a footnote[^1]. [^1]: This is the footnote.","Footnote. Not yet supported."],
-            ["N/A","WIP","Table. Not yet supported."],
+            ["N/A","This is [an example][1] ... [1]: http://example.com","Reference link."],
+            ["N/A","Here is a footnote[^1] ... [^1]: This is the footnote.","Footnote."],
+            ["N/A","WIP","Table."],
         ]
     };
     return (
@@ -56,7 +55,7 @@ const ArticleGuide = () => {
         <br/>
         <br/>
         <Typography>Example of what an article file looks like in editor:</Typography>
-        <Image src="/articleexample.png" width="100" height="100" layout="responsive"/>
+        <Image src="/articleexample.png" width="800" height="500"/>
         <br/><br/><br/>
         <h2>These are not yet supported, but are planned to be in the future:</h2>
         <Table1 data={wipData} />

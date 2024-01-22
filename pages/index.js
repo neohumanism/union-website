@@ -1,7 +1,6 @@
 import React from 'react';
 import Container from "@mui/material/Container";
 import Typography from '@mui/material/Typography';
-import StackCard from '../components/stackcards';
 import "typeface-cormorant-sc";
 import CardGrid from '../components/cardgrid';
 import Image from 'next/image';
@@ -16,17 +15,21 @@ const style1 = {
 
 }
 
-const appeal = [ //center text the titles
-  {title: 'A duty to mankind?', content: 'Do you feel as if it is your duty to act for the betterment of mankind? We want to maximize'},
-  {title: 'A broken order?', content: 'The current world order has turned against mankind. We operate around the West and its periphery first. Do you too believe change is needed?'},
-  {title: 'A tenable solution?', content: 'The anti-establishment force is currently disjointed and without a clear direction. '},
-];
-
-const talk = [
-  {title: "Supplant the modern order", desc: "Throughout the West, reactionary elements have found themselves helpless against the tide of modernity. This modernity has parts that erode the fabric society was built on, leading us on the path to collapse. We will unify the reactionaries under a cohesive creed and organization so that we may supplant the modern order with a more grounded one.", alignment:"center"},
-  {title: "Root out extremism", desc: "Society does not benefit from extremist dogmas that create totalitarian dictatorships or tear it apart. Yet, political moderates and laypeople always helpless to the devoted few that desire it. We aim to root out the extremists wherever they are, be it on the Left or on the Right. And we aim to foster rational and emotionally strong belief-systems to keep extremist dogma at bay.",alignment:"center"},
-  {title: "Solve the existential crisis", desc: "The degenerate state of politics today is unable to properly grasp the kind of crossroads humanity currently finds itself in, much less find the capacity to solve it. By instating rationality and a common goal into the world, we hope to reopen a discussion of how to tackle the world's existential problems, this time in earnest.", alignment:"center"},
-];
+const appeal = [
+  {title: 'About our broken world order?', content: 'The current world order is broken. Most local orders too. And not just in politics, but in every other aspect, be it culture, economics, demographics, and so on. A dire time approaches, and heroes must step up.'},
+  {title: 'For a tenable solution?', content: 'As it stands, all forces of change are disjointed, fail to see reality, and act without clear direction. No force has been able to keep humanity on the right course. As such, we must take a reflect and avoid their mistakes.'},
+  {title: 'For the pursuit of greater good?', content: 'Do you seek to maximize your positive impact? We share your aspiration. That is why we study how one may make the greatest positive impact, and hope to provide the likeminded with resources to reach further.'},
+  {title: "About modernity?", content: "The tide of cultural \"modernization\" threatens to sweep away the routines society depends on. Reactionaries have both been helpless and without good solutions. A more rational and less nostalgic approach is needed."},
+  {title: "About extremism?", content: "Extremist dogmas have come once again with promises that would result in no less than the utter jeapordy of civlization. If left alone, the fanatical few will always find a way. We must act before they seize power."},
+  {title: "About the existential crisis?", content: "From environmental damage, to AI, bioweapons, and etc., the degenerate state of politics today is unable to properly grasp the kind of crossroads humanity currently finds itself in, much less find the capacity to solve it."},
+  {title: "For the realization of meaning?", content: "Modern day has lost all conception of what is \"greater than life\", and existence as such appears meaningless. Many are feel isolated and that mere hedonism is pointless. Thus, we must set out to find true meaning."},
+  {title: "Against organized criminals?", content: "Most of the world is either run by or in kahoots with organized criminals. They snuff out hopes of regional progress only for temporary personal benefits. If we are to reach our greatest potential, this cannot stand."},
+  {title: "About industrial society?", content: "The industrial revolution and its conseqeuences have upended the old way of life, something human cultures have not fully caught up to pace with. Misery from the erasure of communities and loss of control are rampant."},
+]; 
+//these are supposed to represent the objectively most pressing issues in society (in no particular order)
+//not sure if I hit the mark 100%, as the justifications are mostly just intuitive
+//also not sure where these are supposed to link. to the canon somewhere? idk
+//alternatively we just have one big button underneath all of those to lead you to the canon
 
 const Home = () => {
   return (
@@ -38,13 +41,11 @@ const Home = () => {
         <Typography variant="h3" sx={{textAlign:"center", fontFamily:"Cormorant SC"}}>What must be done?</Typography>
       </Container>
 
+
       <Container maxWidth="x1">
-        <CardGrid data={appeal}/> {/*have "learn more" buttons here*/}
+        <CardGrid data={appeal}/>
         <br/>
-        {talk.map((item) => (
-        <StackCard title={item.title} desc={item.desc}/>
-        ))}
-        <Typography variant="h1" sx={{textAlign:"center",paddingTop:"10px", fontFamily:"Cormorant SC", fontWeight:300,color:"red", textTransform:"lowercase"}}>To this century and beyond</Typography>
+        {/*<Typography variant="h1" sx={{textAlign:"center",paddingTop:"10px", fontFamily:"Cormorant SC", fontWeight:300,color:"red", textTransform:"lowercase"}}>To this century and beyond</Typography>*/}
         <br/><br/><br/>
       </Container>
     </>

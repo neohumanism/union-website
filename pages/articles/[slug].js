@@ -1,11 +1,12 @@
 import React from 'react';
-import fs from 'fs';
-import path from 'path';
 import { Typography, Container } from '@mui/material';
 import {lexer} from 'marked';
 import styled from '@emotion/styled';
-import parseMetadata from '../../components/parseMetadata';
+import parseMetadata from '../../components/parsemetadata';
 import MetaBar from '../../components/metabar';
+import { getDirectory, getFileProps } from '../../components/getstatics';
+import he from 'he';
+
 //import Image from 'next/image'; //use this instead of img
 
 
@@ -14,6 +15,8 @@ import MetaBar from '../../components/metabar';
 //ADD IMAGE CUSTOMIZATION?
 
 //add a theme provider that makes links underlined and colored and etc.
+
+//put a content overview drawer on the left side
 
 const Title = styled(Typography)`
   padding-bottom: 10px;
@@ -26,17 +29,16 @@ const Container1 = styled(Container)`
   }
 `;
 
-const ArticlePage = ({ article }) => {
-  const { content, metadata } = article;
+const ArticlePage = ({ data }) => {
+  const metadata = parseMetadata(data);
+  const match = data.match(/(?<=---[\s\S]*?---)[\s\S]*/); //not sure if this is a good way of doing it
+  const content = match ? match[0].trim() : 'You screwed up the formatting.';
 
   const parseMarkdown = (markdownContent) => {
     const tokens = lexer(markdownContent);
     const elements = [];
-    tokens.shift(); //dumb way of doing it, but whatever
-    tokens.shift();
     tokens.forEach((token, index) => {
       switch (token.type) {
-        //not sure how we'd add image support here, but eh
         case 'hr':
           break;
         case 'heading':
@@ -67,7 +69,7 @@ const ArticlePage = ({ article }) => {
     return tokens.map((token, index) => {
       switch (token.type) {
         case 'text':
-          return token.text;
+          return he.decode(token.text);
         case 'image':
           return React.createElement('img', {
             key: index,
@@ -79,7 +81,7 @@ const ArticlePage = ({ article }) => {
           return React.createElement(
             'a',
             { key: index, href: token.href, target: '_blank', rel: 'noopener noreferrer' },
-            token.text
+            he.decode(token.text)
           );
         default:
           return null;
@@ -87,40 +89,23 @@ const ArticlePage = ({ article }) => {
     });
   };
 
+  
   return (
-    <Container1 sx={{}}>
+    <Container1>
       <br/>
-      <div>{parseMarkdown(content)}</div>
+      <>{parseMarkdown(content)}</>
     </Container1>
   );
+
 };
 
 export async function getStaticPaths() {
-  const articlesDirectory = path.join(process.cwd(), 'articles');
-  const fileNames = fs.readdirSync(articlesDirectory);
+  return getDirectory('articles', 'md');
+};
 
-  const paths = fileNames.map((fileName) => ({
-    params: { slug: fileName.replace(/\.md$/, '') },
-  }));
-
-  return { paths, fallback: false };
-}
-
-export async function getStaticProps({ params }) { //consolidate this with the one in articles.js
-  const articlePath = path.join(process.cwd(), 'articles', `${params.slug}.md`);
-  const content = fs.readFileSync(articlePath, 'utf-8');
-  const metadata = parseMetadata(content);
-
-  return {
-    props: {
-      article: {
-        slug: params.slug,
-        metadata: metadata,
-        content,
-      },
-    },
-  };
-}
+export async function getStaticProps({ params }) {
+  return getFileProps('articles', params.slug, 'md');
+};
 
 export default ArticlePage;
 

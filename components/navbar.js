@@ -56,7 +56,7 @@ const Navbar = () => {
         <Typography variant="h4" component="div" sx={{flexGrow: 1, fontFamily:"Cormorant SC", textTransform:"lowercase", marginTop:"-3px", whiteSpace:"nowrap"}}>
           New Order {/*might work better as just an image, given the fontload is 0.2 seconds or w/e*/}
         </Typography>
-        <Hidden smDown implementation="css">
+        <Hidden smDown implementation="css"> {/*the hiding here should not display both at the same time, unlike what happens now between 900 and 600 width or something*/}
           <BarLinks data={BarLinksData}/>
         </Hidden>
         

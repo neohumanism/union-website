@@ -11,7 +11,7 @@ tags: politics, ideology, philosophy
 # Anarcho-primitivism?
 ![monke](/monke.jpeg)
 
-You will constantly hear anarcho-primitivism (anprim) is a bad ideology, but you will rarely hear why. And if actually pitted against the steel-man arguments, most anti-anprim proponents would find themselves wordless or resort to ad-hominen attacks along the lines of "but uncle Ted bombed people!". Hence, it is about time there was a proper debunk of anprim ideology.
+You will constantly hear anarcho-primitivism (anprim) is a bad ideology, but you will rarely hear why. And if actually pitted against the steel-man arguments, most anti-anprim proponents would find themselves wordless or resort to ad-hominen attacks along the lines of "but he bombed people!". Hence, it is about time there was a proper debunk of anprim ideology.
 
 I will primarily draw arguments from [Theodore Kaczynski's past statements](https://archive.org/details/theodore-john-kaczynski-anti-tech-revolution-why-and-how), mostly from his books "Industrial society and its future" and "Anti-tech revolution: Why and how", to represent the radical side of anarcho-primitivism. And the moderate side has various reputable authors, including .
 

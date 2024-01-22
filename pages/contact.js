@@ -14,7 +14,7 @@ import Link from 'next/link';
 //do loop repeat componentification here
 
 const data1 = [
-  {name:"Discord", content:"https://discord.com/invite/ZJSBAD4gdw"},
+  {name:"Discord", content:"https://discord.com/invite/"},
   {name:"Telegram", content:"not yet"},
   {name:"Twitter", content:"not yet"},
   {name:"Github", content:"https://github.com/neohumanism/union-website"},
@@ -27,7 +27,7 @@ const Contact = () => {
 
           <br/>
         <Typography variant="body1" paragraph>
-          We are actively seeking new people to work with. Do not hesitate to get in touch.
+          We are looking for people to work with. Do not hesitate to get in touch.
         </Typography>
 
         <Typography variant="h6" gutterBottom>
@@ -35,7 +35,7 @@ const Contact = () => {
         </Typography>
 
         <Divider/>
-        {data1.map((item, index) => (
+        {data1.map((item, index) => ( //this is cringe, but low priority, so I don't bother making it good
         <ListItem key={index}>
           <ListItemText
             primary={item.name}
@@ -61,12 +61,12 @@ const Contact = () => {
           </ListItem>
           <ListItem>
             <ListItemText primary="Phone Numbers:" secondary={<Typography variant="body2" sx={{ color:"white" }}>
-                none yet :/
+                none yet
               </Typography>}/>
           </ListItem>
           <ListItem>
             <ListItemText primary="Address:" secondary={<Typography variant="body2" sx={{ color:"white" }}>
-                not yet :/
+                not yet
               </Typography>}/>
           </ListItem>
         </List>

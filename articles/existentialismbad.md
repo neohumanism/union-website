@@ -1,18 +1,20 @@
 ---
-title: The meaning of life is not what you make it
+title: Is the meaning of life what you make it?
 author: Jake Helios
 published: 09/01/2024
 revised: 09/01/2024
-thumbnail: default
+thumbnail: wanderer_above_the_sea_fog.jpg
 type: article
 tags: philosophy
 ---
 
 
-# Why existentialism is a bad philosophy
+# Existentialism?
+![](/wanderer_above_the_sea_fog.jpg)
+
 Someone asks you what the meaning of life is, and you reply “whatever you make it”. What you just said is existentialism, and what I argue is both wrong on an objective level, and often bad advice for individuals as well. Why? Well, come and find out.
 
-## 1 Nonsubstantivism makes it useless for happiness
+## 1 Nonsubstantivism makes it useless
 So first thing’s first. What does existentialism even tell you? Well, nothing. It tells you to make your own meaning out of what appears to be a meaningless existence. Yet, isn’t that what you’d already have been doing if you were to be receptive to its message to begin with? And in the case you believed there was an objective meaning, something which might appear to clash with existentialism, it actually wouldn’t, as you could just say that is the meaning you feel is correct. Hence, it does appear existentialism is almost redundant.
 
 Not just that, but existentialism could also direct your focus away from meaning you did not make up on your own. For instance, a lot of people find their religions, utilitarianism, their community, and so on, meaningful, but they rarely made any of those themselves. And often, existentialism is imagined to be an introverted individualistic experience. Where you explore for what kind of hobbies are your passions, climb Mount Everest, or whatever. When in truth, a lot of people are still happy without really having any passionate hobbies or doing any great feats for themselves. (proof on screen).

@@ -3,22 +3,22 @@ title: Understanding Leftism
 author: Jake Helios
 published: 09/01/2024
 revised: 09/01/2024
-thumbnail: default
+thumbnail: protesters.png
 type: article
 tags: politics, ideology, philosophy
 ---
 
 # Understanding leftist ideology
-![Leftism image](image.jpg)
+![](/protesters.png)
 
 A lot of people hate or support leftist ideologies, say socialism, communism, social justice, marxism, syndicalism, or whatever else you'd call it. All without actually understanding much of the theory or history behind them, making them unable to properly discuss the topic.
 
 ## 1 The leftist belief-system
 Leftism is a belief-system, not a notion like "rightism". Every leftist talking point is based on an overarching narrative about society. That being the idea of "oppression", of how power may be leveraged by those more fortunate, the "privileged", or "oppressors", to unfairly exploit the less fortunate, the "oppressed". This dynamic of oppressor and oppressed, you will find in every leftist school of thought. Be it between the upper and lower classes in socialism and marxism, or the franchised majority versus minorities in social justice. .
 
-To illustrate the dynamic, leftists will give you the Coconut Island analogy. Where you are stranded on a remote island with another person. But you are unconscious for a day, and the other person is not, so he collects and hides away all the food on the island. And when you wake up, he begins making strenuous demands of you if you don’t want to starve. (in the drawing: lick my toes or starve). Makes you feel kind of angry, doesn’t it?
+To illustrate the dynamic, leftists will give you the Coconut Island analogy. Where you are stranded on a remote island with another person. But you are unconscious for a day, and the other person is not, so he collects and hides away all the food on the island. And when you wake up, he begins making strenuous demands of you if you don’t want to starve. That should get your blood boiling.
 
-Well, that segways to the next point, of how leftism motivates people to action via anger. Whenever power is unfairly leveraged, it is a natural human response to feel anger, compelling you to stand up for those you perceive to be oppressed. Anger of course, coming in many forms, be it righteousness, vengeance, envy, or whatever else.
+That segueways to the next point, of how leftism motivates people to action via anger. Whenever power is unfairly leveraged, it is a natural human response to feel anger, compelling you to stand up for those you perceive to be oppressed. Anger of course, coming in many forms, be it righteousness, vengeance, envy, or whatever else.
 
 Leftism proposes to solve that kind of unfairness, by One, tearing down all hierarchies and preventing the opportunity to again attain power over another - A society without hierarchy, a society in “anarchy”, being one where there is no power imbalance, and hence oppression would be impossible. And Two, instilling people the mindset of contributing as much as they can to the collective without expecting compensation in return. Referred to by leftist author Karl Marx as: “From each according to ability, and to each according to needs.”, more concisely as I would call it: “unconditional contribution”.
 
@@ -28,7 +28,7 @@ Which for example would accordingly mean that any non-good outcome of human beha
 
 Some examples include how Karl Marx said that religion is used as a metaphorical opium to keep the masses docile in face of oppression. How concepts of wealth and status makes people greedy. Or how gender identity funnels people into different gender roles, which could lead to different outcomes for the individuals, and thereby be a source of leftist grievance.
 
-(the drawing on screen now: oppression bad -> make angry -> angry people tear down hierarchy and operate society off goodwill instead -> humans are inherently good -> so everything else must be a lie holding us back)
+(drawing: oppression bad -> make angry -> angry people tear down hierarchy and operate society off goodwill instead -> humans are inherently good -> so everything else must be a lie holding us back)
 
 That is about it for the basic leftism. Almost everything else found in leftist thought derives from what I have gone through. Most exceptions are syncretisms, like with christian, african, middle-eastern, and “asian” leftism. Which granted is a majority of self-identified leftists throughout the world, but I think a majority of orthodox leftists would agree the spirit-worshipping leftism practiced in Southeast Asia, the capitalist “communism” in China, baath arab nationalism, most leftist dictators of Africa, and so on, are much more than just superficial opportunists paying lipservice.
 

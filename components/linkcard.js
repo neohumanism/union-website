@@ -19,14 +19,15 @@ const LinkCard = ({ title, content, image, link }) => {
     <Link href={link} passHref>
       <Card sx={cardStyle}>
         {image && (
-        <CardMedia
+          <CardMedia
             component="img"
             height="180"
             image={image}
             alt={`${image} Image`}
-        />
+            sx={{borderBottom:"1px solid gray"}}
+          />
         )}
-      <CardContent sx={{padding:"16px", borderTop:"1px solid gray"}}>  
+      <CardContent sx={{padding:"16px"}}>  
         <Typography variant="h5" sx={{paddingBottom:"4px"}} align={"left"}>{title}</Typography> 
         {/*use better fonts for this*/}
         <Typography variant="body2">{content}</Typography>

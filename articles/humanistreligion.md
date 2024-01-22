@@ -3,12 +3,14 @@ title: The Humanist Religion
 author: Jake Helios
 published: 09/01/2024
 revised: 09/01/2024
-thumbnail: default
+thumbnail: vitruvian.jpg
 type: article
 tags: religion, ideology, philosophy
 ---
 
 # The humanist religion and its denominations
+![](/vitruvian.jpg)
+
 Since the enlightenment and decline of Christianity in The West, people have still continued believing in something. That “something” can be described as “humanism”, a belief-system which roughly puts human existence in its center. Nowadays, people don’t really think about how it this affects them or wider society, much like how say christians, muslims, or buddhists see their way of viewing the world as natural without realizing how weird other societies think it is. So let us do a deep dive into what humanism really is.
 
 ## 1 Is it a religion?

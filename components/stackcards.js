@@ -11,13 +11,17 @@ const Title = styled(Typography)`
     background-color:black;
 `;
 
-const Desc = styled(Typography)`
-    padding: 14px; 
-    padding-top: 8px;
-    font-size: 1.1rem;
-    color:white;
-    background-color:black;
-`;
+const Desc = styled(Typography)({
+    padding: "14px",
+    paddingTop: "8px",
+    fontSize: "1.1rem",
+    color:"white",
+    backgroundColor:"black",
+    '& a': {
+        color: 'lightblue',
+        textDecoration: 'underline',
+    },
+});
 
 const Card1 = styled(Card)`
     text-align: center;
@@ -32,9 +36,8 @@ const StackCard = ({title, desc}) => {
     return (
         <Card1>
         <Title variant="h3">{title}</Title>
-        <Desc variant="body1">
-          {desc}
-        </Desc>
+        <Desc variant="body1" dangerouslySetInnerHTML={{ __html: desc /*i'm sure this is fine*/ }}/>
+        {/*use he instead?*/}
       </Card1>
     );
 };

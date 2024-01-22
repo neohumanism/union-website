@@ -8,10 +8,10 @@ type: article
 tags: politics, ideology, geopolitics, middle-east
 ---
 
-# Why Israel has no future
+# Israel has no future
 There was a certain infamous country in the Levant. It began when Europe gathered under the consensus a moral wrong had transpired, and that the creation of this country was how it ought to be rectified. The country was then set up by european conquerors, and supported military such that it won every initial military conflict. Highly religious settlers then came to the territory. They mistreated the muslim locals, forcefully displacing and slaughtering them. Which garnered their ire, and they came to desire nothing less than its destruction.  The country in question is the crusader state of Jerusalem.
 
-Only a thousand years later did history seemingly repeat itself. Now, Israel bears striking similarities. The question then, is if the same fate that befell the crusader state will befall Israel as well.
+You were thinking of Israel? For that matter, there do appear to be many similarities, almost as if history repeated itself. The question then may be, whether the same fate that befell the crusader state will befall Israel as well.
 
 ## 1 Why did the crusader states fail?
 To begin we can ask why the crusader states failed to begin with. Reasons in complex systems are difficult to segregate, but roughly speaking, they can be viewed as the following:

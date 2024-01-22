@@ -1,4 +1,3 @@
-// pages/about.js
 import React from 'react';
 import { Container, Typography, Button, Card } from '@mui/material';
 import Link from 'next/link';
@@ -6,18 +5,18 @@ import StackCard from '../components/stackcards';
 import "typeface-cormorant-sc";
 
 const AboutCards = [
-  {title: "Who we are", desc: "We are an international organization that aims to supplant the current world order with one that is more rational and stable. Our guiding principles are truth and humanism."},
-  {title: "This website", desc: "Here, we explain our cause and argue to those with sympathies for why they should further support it."},
-  {title: "Why we exist", desc: "The world is not in a good state, and society is moving towards collapse. We believe it is impossible to lead a \"normal\" life, and is why we hold that we were forced into this path. And every other group (to our current knowledge) touts unviable solutions, thus we had to make our own."},
-  {title: "Our strategy", desc: "Most activist groups use ineffective strategies to push for their desired change. We do not believe in the good intentions of lawmakers nor the effectiveness of disorganized mobs. Instead, we aim to unify the momentum there is behind a cohesive leadership to put our own lawmakers into power. <Link href='/canon/strategy'>Read more</Link>"},
-  {title: "Why you are needed", desc: "No one is safe from what is to come, including you. We want your participation in our movement to make the necessary changes for a stable world. <Link href='/contact'>Contact us</Link> or <Link href='/contact#network'>join our network</Link> to either work with us or remain a loose supporter."},
-]; //fix linking later
+  {title: "Who we are", desc: "We are an organization with ambitions to establish a new global order. The world is not in a good state, proponents of the current order are either helpless to stop, or actively leading humanity towards extinction. None of the necessary changes we hoped for appeared, and we could not find any group like this, so we took that duty upon ourselves - The duty to supplant the old order, avert the existential crisis, and steer humanity towards their greatest potential."},
+  {title: "Our values", desc: "We are seekers of true meaning, and hold most of what is to be mere distractions, be it worldly pleasures or personal grievances. We believe the purpose of society, science, and progress is to realize true meaning, and therefore our place significance in them."},
+  {title: "This website", desc: "Here, we explain our cause and argue to those with sympathies for why they should further support it. Most of the general population do value the futures of their children and hold themselves to moral standards. This is thence our appeal to explain the risks abound of our current situation, and why with their values considered in earnest, they should be lead to the same conclusions as us."},
+  {title: "Our strategy", desc: "Most groups with similar ambitions to ours use ineffective strategies to push for their desired change. We do not rely on the good intentions of lawmakers nor on disorganized mobs. Instead, we endeavor to unify the momentum there is towards change behind a cohesive leadership to put our own lawmakers into power. <a href='/canon/strategy'>Read more</a>."},
+  {title: "Lend your hand", desc: "Duty calls. <a href='/contact'>Contact us</a> to join up."},
+]; //would like to use nextjs' <Link>, but seems very difficult to do
 
 const AboutPage = () => {
   return (
     <Container sx={{ marginTop: 4, marginBottom: 4}}>
-      {AboutCards.map((item) => (
-        <StackCard title={item.title} desc={item.desc}/>
+      {AboutCards.map((item, index) => (
+        <StackCard title={item.title} desc={item.desc} key={index}/>
       ))}
 
       <Link href="/">
