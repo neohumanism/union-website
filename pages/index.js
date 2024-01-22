@@ -12,8 +12,9 @@ const style1 = {
   backgroundImage: 'url("/temp.png")',
   backgroundSize: "100% 100%",
   backgroundPosition: "center",
+};
 
-}
+//need some universal styling where it would be shorter than just using sx on every page
 
 const appeal = [
   {title: 'About our broken world order?', content: 'The current world order is broken. Most local orders too. And not just in politics, but in every other aspect, be it culture, economics, demographics, and so on. A dire time approaches, and heroes must step up.'},

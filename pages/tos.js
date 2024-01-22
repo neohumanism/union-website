@@ -33,7 +33,7 @@ const Tos = () => {
 
       <Ent><strong>4. Disclaimer</strong></Ent>
       <Ent>4.1: This website provides information for general use only. We do not guarantee the accuracy, completeness, or reliability of the content. Usage of its information is at one's own risk.</Ent>
-      <Ent>4.2: All information provided on this website is purely hypothetical, satirical, fake, and gay. Furthermore, solely concerning a virtual world in the videogame "Minecraft". All resemblance to real contexts is either coincidental or inteded for historical reenactment purposes.</Ent>
+      <Ent>4.2: All information provided on this website is purely hypothetical, satirical, fake, and gay. Furthermore, solely concerning a live-action roleplaying virtual world in the videogame "Minecraft". All resemblance to real contexts is purely coincidental.</Ent>
 
       <Ent><strong>5. Limitation of Liability</strong></Ent>
       <Ent>5.1: The website owner is not liable for any direct, indirect, incidental, consequential, or punitive damages arising from the use or inability to use this website.</Ent>

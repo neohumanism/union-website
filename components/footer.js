@@ -24,8 +24,8 @@ function Footer() {
               </Link>
             </Typography>
             <Typography variant="body2">
-              <Link color="inherit" href="https://github.com/neohumanism/union-website">
-                Github
+              <Link color="inherit" href="/qna">
+                Q&A
               </Link>
             </Typography>
             <Typography variant="body2">

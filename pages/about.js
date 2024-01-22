@@ -10,6 +10,7 @@ const AboutCards = [
   {title: "This website", desc: "Here, we explain our cause and argue to those with sympathies for why they should further support it. Most of the general population do value the futures of their children and hold themselves to moral standards. This is thence our appeal to explain the risks abound of our current situation, and why with their values considered in earnest, they should be lead to the same conclusions as us."},
   {title: "Our strategy", desc: "Most groups with similar ambitions to ours use ineffective strategies to push for their desired change. We do not rely on the good intentions of lawmakers nor on disorganized mobs. Instead, we endeavor to unify the momentum there is towards change behind a cohesive leadership to put our own lawmakers into power. <a href='/canon/strategy'>Read more</a>."},
   {title: "Lend your hand", desc: "Duty calls. <a href='/contact'>Contact us</a> to join up."},
+  {title: "Questions", desc: "Have more surface-level questions but don't bother reading the canon? Read the <a href='/qna'>Q&A</a>. If it does not answer everything you wanted to ask, just ask in the contact page."},
 ]; //would like to use nextjs' <Link>, but seems very difficult to do
 
 const AboutPage = () => {

@@ -21,6 +21,10 @@ const Desc = styled(Typography)({
         color: 'lightblue',
         textDecoration: 'underline',
     },
+    '@media (min-width: 600px)': {
+        paddingLeft:"14%",
+        paddingRight:"14%",
+    },
 });
 
 const Card1 = styled(Card)`
