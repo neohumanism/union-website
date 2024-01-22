@@ -38,6 +38,7 @@ const Home = () => {
       <Container maxWidth="xl" style={style1}> {/*make the underneath have a cool effect that they come from the bottom to there when they are loaded in*/}
         <Box display="flex" justifyContent="center" alignItems="center" sx={{paddingTop:"10vh"}}> {/*a media query for very long screens?*/}
         <Image src="/bigic.png" height={300} width={300} style={{height:"50vh", width:"50vh"}}/> {/*add a media query for small screens*/}{/*design not final maybe. also could do with being a vector*/}
+        {/*the image size was funky when first loading in on mobile?*/}
         </Box>
         <Typography variant="h3" sx={{textAlign:"center", fontFamily:"Cormorant SC"}}>What must be done?</Typography>
       </Container>

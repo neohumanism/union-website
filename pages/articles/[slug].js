@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography, Container } from '@mui/material';
 import {lexer} from 'marked';
 import styled from '@emotion/styled';
-import parseMetadata from '../../components/parsemetadata';
+import parseMetadata from '../../components/parsedata';
 import MetaBar from '../../components/metabar';
 import { getDirectory, getFileProps } from '../../components/getstatics';
 import he from 'he';

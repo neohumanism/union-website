@@ -1,5 +1,5 @@
 import React from 'react';
-import parseMetadata from '../components/parsemetadata';
+import parseMetadata from '../components/parsedata';
 import Link from 'next/link';
 import { Typography, Container } from '@mui/material';
 import CardGrid from '../components/cardgrid';
