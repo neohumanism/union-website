@@ -14,7 +14,7 @@ const DictionaryEntryPage = ({ data }) => {
     </Container>
   );
 };
-
+/*
 export async function getStaticPaths() {
   return getStaticPathsByExtension('dictionary', 'md');
 }
@@ -22,6 +22,6 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   return getStaticPropsByExtension('dictionary', params.slug, 'md');
 }
-
+*/
 export default DictionaryEntryPage;
 
