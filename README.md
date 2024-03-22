@@ -1,4 +1,3 @@
 # New order website
 
-Rules:
-1. Do not split my react components into separate files.
+A website dedicated to the realization of truth.
