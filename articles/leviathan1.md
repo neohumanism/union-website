@@ -1,8 +1,9 @@
 ---
-title: The Leviathan Pipeline
+title: Is horseshoe theory actually correct?
+subtitle: Understanding the leviathan pipeline
 author: Jake Helios
-published: 09/01/2024
-revised: 09/01/2024
+published:
+revised:
 thumbnail: horseshoe.png
 type: article
 tags: politics, ideology

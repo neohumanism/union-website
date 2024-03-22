@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Typography } from '@mui/material';
 import Link from 'next/link';
 import { useDictContext, DictContextProvider } from '../components/dictcontext';
+import SearchBar from '../components/search';
 import { getDirectory, getFiles } from '../components/getstatics';
 
 /*
@@ -16,7 +17,7 @@ dictdisplay, listen and display too, make a new card list display for this
 
 
 export const DictDisplay = ({data}) => {
-  const { textInputValue } = useDictContext();
+  const { text } = useDictContext();
   const words = data.map((word) => { //we add decoding here and etc., thereby justifying two loops sort of
     const slug = word.path;
     const content = word.content;
@@ -26,7 +27,7 @@ export const DictDisplay = ({data}) => {
     };
   });
   const filteredWords = words.filter(word => //not sure if this solution scales well, but it works for now
-    word.slug.toLowerCase().includes(textInputValue.toLowerCase())
+    word.slug.toLowerCase().includes(text.toLowerCase())
   );
   return (
     <ul>
@@ -37,20 +38,7 @@ export const DictDisplay = ({data}) => {
   );
 };
 
-export const SearchBar = ({context}) => { //eventually split this into a separate file
-  const { textInputValue, updateTextInputValue } = context;
- 
-  const handleChange = (event) => {
-    const value = event.target.value;
-    updateTextInputValue(value);
-  };
 
-  return ( //use mui eventually maybe
-    <>
-      <input type="text" value={textInputValue} onChange={handleChange} />
-    </>
-  );
-};
 
 export const DictPagery = ({data}) => {
   const context = useDictContext();
@@ -65,7 +53,6 @@ export const DictPagery = ({data}) => {
 
 
 const DictionaryPage = ({data}) => {
-  console.log(data);
     return (
         <Container sx={{ marginTop: 4, marginBottom: 4}}>
           <DictContextProvider>
@@ -78,9 +65,11 @@ const DictionaryPage = ({data}) => {
     );
 };
 
+//make search have space and line be interchangable
+//have aliases
+
 export async function getStaticProps() {
   const { paths } = await getDirectory("dictionary", "md");
-  console.log(paths);
   return getFiles("dictionary", paths, "md");
 };
 

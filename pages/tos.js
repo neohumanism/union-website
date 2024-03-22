@@ -29,11 +29,11 @@ const Tos = () => {
       <Ent>2.4: The operators of the website reserve the right to suspend access to any user without prior disclosure and for any reason.</Ent>
 
       <Ent><strong>3. Intellectual Property</strong></Ent>
-      <Ent>3.1 Copyright Law: Some content on this website, including but not limited to text, images, graphics, and logos, may be protected by intellectual property laws and belongs to their respective owners. By reproducing or otherwise using any content from this website, you agree to have reviewed in prior the relevant legal frameworks surrounding each specific piece of media to ensure compliance with the relevant laws.</Ent>
+      <Ent>3.1 Copyright Law: Some content on this website, including but not limited to text, images, graphics, and logos, may be protected by intellectual property laws. By reproducing or otherwise using any content from this website, you agree to have reviewed in prior the relevant legal frameworks surrounding each specific piece of media to ensure compliance with the relevant laws.</Ent>
 
       <Ent><strong>4. Disclaimer</strong></Ent>
       <Ent>4.1: This website provides information for general use only. We do not guarantee the accuracy, completeness, or reliability of the content. Usage of its information is at one's own risk.</Ent>
-      <Ent>4.2: All information provided on this website is purely hypothetical, satirical, fake, and gay. Furthermore, solely concerning a live-action roleplaying virtual world in the videogame "Minecraft". All resemblance to real contexts is purely coincidental.</Ent>
+      <Ent>4.2: All information provided on this website is purely hypothetical and satirical. Furthermore, solely concerning a virtual roleplaying world in the videogame "Minecraft". All resemblance to real contexts is purely coincidental.</Ent>
 
       <Ent><strong>5. Limitation of Liability</strong></Ent>
       <Ent>5.1: The website owner is not liable for any direct, indirect, incidental, consequential, or punitive damages arising from the use or inability to use this website.</Ent>

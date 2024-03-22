@@ -7,9 +7,10 @@ const ArticleGuide = () => {
     const headerData = {
         headers: ["Header", "Example", "Description"],
         rows: [
-            ["title:", "\"Analysis of Economic Factors\"", "Title for your article. Is only used in browse."],
+            ["title:", "\"Why is the economy so bad?\"", "A flashy not necessarily descriptive title for your article. Only used in browse."],
+            ["subtitle:", "\"A comprehensive analysis of 21st century economic factors\"", "A more descriptive subtitle for your article. Only used in browse."],
             ["author:", "\"John Doe\"", "Name of the article author."],
-            ["published:", "\"23/9/2023\"", "Date your article was published in dd/mm/yyyy."],
+            ["published:", "\"23/9/2023\"", "Date your article was published in dd/mm/yyyy. Leave empty for incomplete articles to mark them as such."],
             ["revised:", "\"4/8/2024\"", "Date this article was last revised in dd/mm/yyyy. Small edits to correct minor errors do not count as significant enough revisions."],
             ["thumbnail:", "\"middle_eastern_explosions.png\"", "Thumbnail picture for your article. Is only used in browse. Leave empty or write \"default\" if you don't have one."],
             ["type:", "\"article\"", "What type your media is. Your options are: \"article\", (NOT IMPLEMENTED: \"pdf\", \"image\", and \"video\")."],
@@ -39,6 +40,7 @@ const ArticleGuide = () => {
             ["****","**Your mom is the biggest known lifeform**","Bold text."],
             ["____","__Be happy__","Bold text."],
             ["~~~~","~~This is cancelled~~","Strikethrough text."],
+            //need one for `code`? (aka frame)
             ["N/A","This is [an example][1] ... [1]: http://example.com","Reference link."],
             ["N/A","Here is a footnote[^1] ... [^1]: This is the footnote.","Footnote."],
             ["N/A","WIP","Table."],

@@ -1,8 +1,9 @@
 ---
 title: Understanding Leftism
+subtitle: The where, why, what, and how of leftism
 author: Jake Helios
-published: 09/01/2024
-revised: 09/01/2024
+published:
+revised:
 thumbnail: protesters.png
 type: article
 tags: politics, ideology, philosophy
@@ -11,12 +12,18 @@ tags: politics, ideology, philosophy
 # Understanding leftist ideology
 ![](/protesters.png)
 
-A lot of people hate or support leftist ideologies, say socialism, communism, social justice, marxism, syndicalism, or whatever else you'd call it. All without actually understanding much of the theory or history behind them, making them unable to properly discuss the topic.
+There are various sentiments about leftist ideologies, which would include socialism, communism, social justice, marxism, syndicalism, among others. Despite all these sentiments, leftist ideology is often poorly understood, so I will provide a description and analysis.
+
+Before we begin, it should be cleared up that due to poor naming conventions and constancy within most leftist schools (which is practiced as a function within them), this article formulates non-standard terms for descriptive purposes.
 
 ## 1 The leftist belief-system
-Leftism is a belief-system, not a notion like "rightism". Every leftist talking point is based on an overarching narrative about society. That being the idea of "oppression", of how power may be leveraged by those more fortunate, the "privileged", or "oppressors", to unfairly exploit the less fortunate, the "oppressed". This dynamic of oppressor and oppressed, you will find in every leftist school of thought. Be it between the upper and lower classes in socialism and marxism, or the franchised majority versus minorities in social justice. .
+Leftism is defined here as genealogically enlightenment-derived belief-systems following a narrative of "oppression". And beyond that, they believe i
 
-To illustrate the dynamic, leftists will give you the Coconut Island analogy. Where you are stranded on a remote island with another person. But you are unconscious for a day, and the other person is not, so he collects and hides away all the food on the island. And when you wake up, he begins making strenuous demands of you if you don’t want to starve. That should get your blood boiling.
+The narrative is of how power may be leveraged by the advantaged, the "privileged", or "oppressors", to deliberately or neglectfully harm the less fortunate, the "oppressed". Be it between the upper and lower classes in socialism and marxism, or the franchised majority versus minorities in social justice. Where advantages more precisely means control of physical realities, where this implies all reality exists to serve everyone equally well.
+
+To illustrate the dynamic, leftists will give you the Coconut Island analogy. Where you are stranded on a remote island with another person. And you start off unconscious and he does not, and he hides away all the food on the island. After you wake up, he will either extort you for you to receive food, or uncaringly let you starve. Leftists will describe the hoarder as having oppressed you by using the advantage of being awake first to control the food to your harm.
+
+
 
 That segueways to the next point, of how leftism motivates people to action via anger. Whenever power is unfairly leveraged, it is a natural human response to feel anger, compelling you to stand up for those you perceive to be oppressed. Anger of course, coming in many forms, be it righteousness, vengeance, envy, or whatever else.
 
@@ -85,6 +92,8 @@ Did not happen like Marx intended
 #it is here that most of all rational leftists ended up realizing leftism doesn’t work, and left the left
 
 ## 5 Layman leftism
+Also describable as "worker's leftism" or "socialism.
+
 Just workers, women, and subaltern groups who want more rights. Not a real belief-system, something the leftist intellectuals got pissy about
 
 Subscribes to authority if it claims to be for their good, e.g. big corps
@@ -95,6 +104,8 @@ Unlike every other leftist school, this is the only one that does not believe in
 
 ## 6 Social justice
 Social justice. Not very long term thinking. More just not feeling bad in the short term or smth
+
+contains numerous contradictions, so much that the only common thing between all of them is ultimately only that their adherents feel something
 
 Is effectively just anarchism returned, but feminine (selling out, being okay with big brother government). Roi? Or just more concretely focusing solely on not feeling bad? Idfk
 

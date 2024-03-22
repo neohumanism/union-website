@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Link, Grid } from '@mui/material';
 
-function Footer() {
+const Footer = () =>  {
   return (
     <footer style={{ backgroundColor: "#000000", color: "white", padding: "20px" }}>
         <Grid container spacing={2} justifyContent="center" alignItems="center">
@@ -29,7 +29,7 @@ function Footer() {
               </Link>
             </Typography>
             <Typography variant="body2">
-              <Link color="inherit" href="https://discord.com/invite/ZJSBAD4gdw">
+              <Link color="inherit" href="https://discord.com/invite/">
                 Discord
               </Link>
             </Typography>

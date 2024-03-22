@@ -3,14 +3,14 @@ import React, { createContext, useContext, useState } from 'react';
 const DictContext = createContext();
 
 export const DictContextProvider = ({ children }) => {
-  const [textInputValue, setTextInputValue] = useState("");
+  const [text, setTextInputValue] = useState("");
 
-  const updateTextInputValue = (value) => {
+  const updateText = (value) => {
     setTextInputValue(value);
   };
 
   return (
-    <DictContext.Provider value={{ textInputValue, updateTextInputValue }}>
+    <DictContext.Provider value={{ text, updateText }}>
       {children}
     </DictContext.Provider>
   );

@@ -1,8 +1,9 @@
 ---
 title: Israel has no future
+subtitle: Evaluation of Israel's geopolitical situation
 author: Jake Helios
-published: 09/01/2024
-revised: 09/01/2024
+published:
+revised:
 thumbnail: default
 type: article
 tags: politics, ideology, geopolitics, middle-east

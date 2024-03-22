@@ -1,8 +1,9 @@
 ---
-title: The Humanist Religion
+title: The common denominator of communism, fascism, and liberalism
+subtitle: Examination of the humanist religion
 author: Jake Helios
-published: 09/01/2024
-revised: 09/01/2024
+published:
+revised:
 thumbnail: vitruvian.jpg
 type: article
 tags: religion, ideology, philosophy

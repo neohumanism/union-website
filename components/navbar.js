@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AppBar, Toolbar, Typography, Button, IconButton, Hidden, Drawer, List, ListItem } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button, IconButton, Hidden, Drawer, Box, List, ListItem } from '@mui/material';
 import Link from 'next/link';
 import MenuIcon from '@mui/icons-material/Menu';
 import "typeface-cormorant-sc";
@@ -7,21 +7,21 @@ import "typeface-cormorant-sc";
 const BarLinksData = [
   {name: "Home", link: "/"},
   {name: "About", link: "/about"},
-  {name: "Media", link: "/articles"},
-  {name: "Canon", link: "/canon"},
+  {name: "Library", link: "/library"},
+  {name: "Charter", link: "/charter"},
   {name: "Dictionary", link: "/dictionary"},
   {name: "Contact", link: "/contact"},
 ];
 
 const BarLinks = ({data}) => {
   return (
-    <>
+    <Box sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'nowrap' }}>
       {data.map((item, index) => (
         <Link href={item.link} key={index} >
         <Button color="inherit">{item.name}</Button>
         </Link>
       ))}
-  </>
+    </Box>
   );
 };
 
@@ -60,7 +60,7 @@ const Navbar = () => {
           <BarLinks data={BarLinksData}/>
         </Hidden>
         
-        <Hidden mdUp implementation="css">
+        <Hidden smUp implementation="css">
           <IconButton
             edge="start"
             color="inherit"

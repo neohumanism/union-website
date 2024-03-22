@@ -1,8 +1,9 @@
 ---
-title: The role of centralization
+title: Is centralization ever good?
+subtitle: Determining the role of centralization
 author: Jake Helios
-published: 09/01/2024
-revised: 09/01/2024
+published:
+revised:
 thumbnail: leviathan_hobbes.jpg
 type: article
 tags: politics, ideology

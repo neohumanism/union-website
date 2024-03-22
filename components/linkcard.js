@@ -1,8 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import { Card, CardContent, Typography, CardMedia } from '@mui/material';
+import Divider from '@mui/material/Divider';
 
-const LinkCard = ({ title, content, image, link }) => {
+const LinkCard = ({ title, content, image, link, divider }) => {
   const cardStyle = {
     transition: 'box-shadow 0.2s',
     backgroundColor:"black",
@@ -29,8 +30,9 @@ const LinkCard = ({ title, content, image, link }) => {
         )}
       <CardContent sx={{padding:"16px"}}>  
         <Typography variant="h5" sx={{paddingBottom:"4px"}} align={"left"}>{title}</Typography> 
+        {divider &&   <Divider sx={{ backgroundColor: 'lightgray', marginTop:"4px", marginBottom:"9px"}}/>}
         {/*use better fonts for this*/}
-        <Typography variant="body2">{content}</Typography>
+        <Typography variant="body2" style={ divider ? {fontFamily:'Georgia'}: {}}>{content}</Typography>
       </CardContent>
       </Card>
     </Link>

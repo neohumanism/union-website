@@ -14,26 +14,30 @@ const Title = styled(Typography)`
 const Desc = styled(Typography)({
     padding: "14px",
     paddingTop: "8px",
-    fontSize: "1.1rem",
+    fontSize: "1rem",
     color:"white",
     backgroundColor:"black",
     '& a': {
         color: 'lightblue',
         textDecoration: 'underline',
     },
-    '@media (min-width: 600px)': {
-        paddingLeft:"14%",
-        paddingRight:"14%",
-    },
+
 });
 
 const Card1 = styled(Card)`
-    text-align: center;
+    //text-align: center;
     border: 1px solid gray;
     border-radius: 0;
     margin-bottom: 40px; 
     background-color: black;
     padding:16px;
+    margin-left:auto;
+    margin-right:auto;
+    @media (min-width: 720px) {
+        width: 85%;
+        padding-left:5%;
+        padding-right:5%;
+    }
 `;
 
 const StackCard = ({title, desc}) => {

@@ -23,6 +23,17 @@ export async function getFileProps(directory, slug, fileExtension) {
   };
 };
 
+export async function getFile(directory, file) {
+  const fullPath = path.join(process.cwd(), directory, `${file}`);
+  const data = await fs.readFile(fullPath, 'utf8');
+
+  return {
+    props: {
+      data,
+    },
+  };
+}
+
 export async function getFiles(directory, paths, fileExtension) {
     const results = await Promise.all(
       paths.map(async (path) => {

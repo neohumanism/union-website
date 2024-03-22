@@ -2,32 +2,51 @@ import { createContext, useContext, useState } from 'react';
 
 const SortContext = createContext();
 
-export const SortProvider = ({ children }) => {
-  const [data, setData] = useState(null);
+// We will not rely on discretion in sorting, only strict categorization and tagging and etc.
+// A definitive system for which will be figured out later.
 
-  const setSortData = (input) => {
-    setData(input);
+export const SortContextProvider = ({ children }) => {
+  const [state, setState] = useState({
+    tags: null,
+    text: "",
+    //date: null,
+    sortBy: null,
+  });
+
+  const updateText= (value) => {
+    setState((prevState) => ({ ...prevState, text: value }));
   };
 
-  const addSortData = (input) => {
-    setData(...input);
+  const setSortBy = (value) => {
+    setState((prevState) => ({ ...prevState, sortBy: value }));
   };
 
-  const removeSortData = (input) => {
-    setData(input); //idk how tf to do
+  const setTag = (value) => {
+    setState((prevState) => ({ ...prevState, tags: value }));
   };
 
-  const clearSortData = () => {
-    setData(null);
+  const addTag = (value) => {
+    setState((prevState) => ({ ...prevState, tags: [...prevState.tags, ...value] }));
+  };
+
+  const removeTag = (value) => {
+    setState((prevState) => ({
+      ...prevState,
+      tags: prevState.tags.filter(tag => !value.includes(tag)),
+    }));
+  };
+
+  const clearTags= () => {
+    setState((prevState) => ({ ...prevState, tags: null }));
   };
 
   return (
-    <SortContext.Provider>
+    <SortContext.Provider value={{ ...state, updateText, setSortBy, setTag, addTag, removeTag, clearTags }}>
       {children}
     </SortContext.Provider>
   );
 };
 
-export const useSortContext= () => {
+export const useSortContext = () => {
   return useContext(SortContext);
 };
